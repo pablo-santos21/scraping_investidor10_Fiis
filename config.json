@@ -1,0 +1,204 @@
+{
+    "acoes": [
+        "KNSC11",
+        "XPLG11",
+        "BTLG11",
+        "MXRF11",
+        "XPML11",
+        "HGBS11",
+        "MXRF11",
+        "HGLG11",
+        "HGBS11",
+        "ALZR11",
+        "BTCI11",
+        "LVBI11",
+        "XPML11",
+        "CPTS11",
+        "GTWR11",
+        "RZTR11",
+        "XPML11",
+        "BTLG11",
+        "GARE11",
+        "HGLG11",
+        "VISC11",
+        "TGAR11",
+        "GGRC11",
+        "BTCI11",
+        "MALL11",
+        "CPTS11",
+        "KNCR11"
+    ],
+    "colunas_personalizadas": [
+        {
+            "nome": "Nome",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": ".name-company",
+            "formato_excel": "Texto"
+        },
+        {
+            "nome": "Cotacao",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "span.value:nth-child(1)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "DIVIDENDO ATUAL",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#yield-distribuition div:nth-child(1) span:nth-child(3)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "P/VP Atual",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": ".vp ._card-body span:nth-child(1)",
+            "formato_excel": "Decimal"
+        },
+        {
+            "nome": "Setor",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#table-indicators > div:nth-child(6) > div.desc > div.value > span:nth-child(1)",
+            "formato_excel": "Texto"
+        },
+        {
+            "nome": "Segmento",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#table-indicators > div:nth-child(5) > div.desc > div.value > span:nth-child(1)",
+            "formato_excel": "Texto"
+        },
+        {
+            "nome": "COTISTAS",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#about-company #table-indicators div:nth-child(11) .desc .value span:nth-child(1)",
+            "formato_excel": "Número"
+        },
+        {
+            "nome": "COTAS",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#about-company #table-indicators div:nth-child(12) .desc .value span:nth-child(1)",
+            "formato_excel": "Número"
+        },
+        {
+            "nome": "Liquidez Diária Atual",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(5) td:nth-child(2)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "DY ATUAL",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#yield-distribuition div:nth-child(1) span:nth-child(2)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "DY (12M)",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#yield-distribuition div:nth-child(4) span:nth-child(2)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "DIVIDENDO EM 12M",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#yield-distribuition div:nth-child(4) span:nth-child(3)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "VALORIZAÇÃO 12M",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#cards-ticker div:nth-child(5) ._card-body span:nth-child(1)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "Rentabilidade 1 mes",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": ".ticker div:nth-child(2) span:nth-child(1)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "Rentabilidade 1 ano",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": ".ticker div:nth-child(4) span:nth-child(1)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "Vacancia",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#about-company #table-indicators div:nth-child(10) .desc .value span:nth-child(1)",
+            "formato_excel": "Porcentagem"
+        },
+        {
+            "nome": "Liquidez Diária 2024",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(5) td:nth-child(4)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "PATIMONIO",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(6) td:nth-child(2)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "PATIMONIO 2024",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(6) td:nth-child(4)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "VALOR DE MERCADO ATUAL",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(2) td:nth-child(2)",
+            "formato_excel": "Moeda"
+        },
+        {
+            "nome": "VALOR DE MERCADO 2024",
+            "tipo": "avancado",
+            "classe_busca": "",
+            "classe_retorno": "",
+            "seletor_css": "#indicators-history .indicator-history .small tbody tr:nth-child(2) td:nth-child(4)",
+            "formato_excel": "Moeda"
+        }
+    ],
+    "headless": true,
+    "tema": "escuro",
+    "mostrar_mensagem_inicial": false
+}
